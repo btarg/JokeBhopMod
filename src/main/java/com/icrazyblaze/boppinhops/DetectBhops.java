@@ -28,10 +28,12 @@ public class DetectBhops {
 
     public final Minecraft mc = Minecraft.getMinecraft();
 
+    public static boolean modEnabled = true;
+
     @SubscribeEvent
     public void doEveryTick(TickEvent.ServerTickEvent event) {
 
-        if (event.phase == TickEvent.Phase.END && getEnabled()) {
+        if (event.phase == TickEvent.Phase.END && getEnabled() && modEnabled) {
 
             if (player() == null || player().isElytraFlying() || player().isSpectator() || player().isInWater()) {
                 return;
