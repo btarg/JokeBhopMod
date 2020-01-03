@@ -1,0 +1,13 @@
+[
+{
+  "modid": "boppinhops",
+  "name": "Boppin' Hops",
+  "description": "Plays 'A La Menthe' while bunnyhopping using the Squake mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://icrazyblaze.github.io/",
+  "authorList": ["iCrazyBlaze"],
+  "credits": "Thanks to the creator of the Squake mod!",
+  "logoFile": "logo.png"
+}
+]
